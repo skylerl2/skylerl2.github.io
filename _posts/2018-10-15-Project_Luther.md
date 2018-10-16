@@ -1,3 +1,5 @@
+# Project Luther Retrospective
+
 Our second project at Metis, Project Luther, provided us with several challenges:
 
 1. Create an interesting and motivating project idea.
