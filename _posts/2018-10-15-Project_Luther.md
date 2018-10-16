@@ -8,12 +8,11 @@ Our second project at Metis, Project Luther, provided us with several challenges
 Coming up with the original project idea was one of the most difficult parts of the process for me. Not being sure where to 
 start can be frustrating and make the project seem daunting. An idea that eventually came to mind was to examine the amenities 
 provided by luxury hotels and use those to predict their review scores. This idea came to me from my familiarity with a hotel 
-booking website called [Five Star Alliance] (https://www.fivestaralliance.com) (not that I typically stay at luxury hotels).
+booking website called [Five Star Alliance](https://www.fivestaralliance.com) (not that I typically stay at luxury hotels).
 
 ![alt text](http://cdn1.viewpoints.com/pro-product-photos/000/422/070/300/five-star-alliance-logo-300-300.jpg)
 
-To collect the data, I used Selenium to auto-navigate through each of the 114 hotels listed under [New York City] 
-(https://www.fivestaralliance.com/luxury-hotels/271/north-america/united-states-northeast/new-york-ny) and copy the data into a 
+To collect the data, I used Selenium to auto-navigate through each of the 114 hotels listed under [New York City](https://www.fivestaralliance.com/luxury-hotels/271/north-america/united-states-northeast/new-york-ny) and copy the data into a 
 Pandas dataframe. One of the challenges of this was that the page did not allow my web scraper to automatically click on **View 
 more Hotels** to expand the listings—this was the only part I had to do manually.
 
