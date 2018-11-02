@@ -23,7 +23,7 @@ close second. I liked this because logistic regressions seem the most intuitive 
 previous project, my final model had a regularization factor to avoid overfitting.
 
 The other new and important aspect of this project was producing an interactive data visualization. For this, I decided to use 
-Tableau. I created a [histogram](https://public.tableau.com/profile/skyler.lehto#!/vizhome/DrunkDrivingModelProbabilities/Sheet1publish=yes) of probabilities 
+Tableau. I created a [histogram](https://public.tableau.com/profile/skyler.lehto#!/vizhome/DrunkDrivingModelProbabilities/Sheet1?publish=yes) of probabilities 
 produced by my model on the dataset, and vertically split the bars by the actual incidence of drunk driving in the bins (which 
 were very close to the model’s probabilities).
 
