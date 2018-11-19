@@ -8,9 +8,8 @@ which outcomes, and use that to predict new outcomes on new data. But with the l
 labels to guide it. We let the model tell us what it sees in the data, in terms of which data is more or less similar to other 
 data in the set.
 
-Coming up with a project idea for this one was not as straightforward since I didn’t have any clarity at first as to what I 
-should expect to find, if anything. But the idea I eventually settled on was to examine tweets about voting that were made on 
-the day of the US midterm elections.
+Coming up with a project idea for this one was not as straightforward without a concept of what to be looking for. But the 
+project I eventually settled on was to examine tweets about voting that were made on the day of the US midterm elections.
 
 To do this, I scraped 18,000 public tweets containing the word “vote” on 11/6/18 using the [Twitter API](https://developer.twitter.com). I saved these tweets in Mongo DB to be accessed each time I reopened my working file. And I 
 used Natural Language Processing (NLP) techniques (e.g., RegEx Tokenizer) to clean and prepare the data for analysis.
