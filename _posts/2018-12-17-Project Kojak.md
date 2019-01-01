@@ -1,6 +1,6 @@
 # Project Kojak Retrospective
 
-My final Metis project, **Project Kojak**, was my chance to use anything and everything we had learned in the course and apply 
+My final Metis project, **Project Kojak**, was my chance to use anything and everything I had learned in the course and apply 
 it to something I am interested in or passionate about in some way. Because of this, it was my most rewarding Metis project, but 
 also my most challenging one.
 
@@ -17,12 +17,12 @@ individual states instead? After all, we would be getting a much larger sample s
 That was the question I decided to take up for my final project. To start out, I retrieved primary and general election data 
 from the Federal Election Commission, as well as state-level economic data from the Bureau of Economic Analysis. After saving 
 and cleaning all of this data in Pandas, I computed a modified version of Cook’s [Partisan Voter Index](https://www.cookpolitical.com/introducing-2017-cook-political-report-partisan-voter-index) (PVI) to use in the 
-regression.
+regressions.
 
 And using these data, I made a logistic regression model using Scikit-learn that would return the probability of each state 
 going for the Republican or Democratic candidate in the electoral college. My first regression was using just the PVI and the 
 economic data; my second regression added in primary (and caucus) turnout. (I used a modest regularization factor to prevent 
-overfitting.) By comparing the two models, I could ascertain what the effect of primary turnout was on the forecast.
+overfitting.) By comparing the two regressions, I could ascertain what the effect of primary turnout was on the forecast.
 
 To put together an overall election forecast using 51 probabilities (including DC), I ran 100,000 Monte Carlo simulations of the 
 electoral college outcome. I assumed some correlation among the state-level outcomes, since polling errors typically aren’t 
@@ -58,4 +58,4 @@ So what did I learn from this? Besides the usefulness of these tools and reaffir
 effectively, I discovered that pollsters may be leaving some information on the table when it comes to updating their likely 
 voter screens. It seems like in 2016, they leaned too heavily on turnout patterns from the 2012 election, when perhaps they 
 could have done more to factor in 2016 primary turnout. Then maybe the polls would have given us a better idea of just how close 
-the 2016 presidential election really was.
+the 2016 presidential election was poised to be.
