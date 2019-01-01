@@ -1,6 +1,8 @@
 # Project McNulty Retrospective
 
-Our third project at Metis, **Project McNulty**, introduced us to (another form of) supervised learning and data visualizations. 
+See [here](https://github.com/skylerl2/skylerl2.github.io/tree/master/project_3) for project files.
+
+My third project at Metis, **Project McNulty**, introduced me to (another form of) supervised learning and data visualizations. 
 
 Supervised learning is really just a formalized name for running models on labeled data so it can make label predictions on new 
 data. But for this project, instead of running regression models, we had to run classification models—since the target (i.e., 

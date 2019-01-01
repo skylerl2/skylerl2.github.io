@@ -1,6 +1,8 @@
 # Project Luther Retrospective
 
-Our second project at Metis, Project Luther, provided us with several challenges:
+See [here](https://github.com/skylerl2/skylerl2.github.io/tree/master/project_2) for project files.
+
+My second project at Metis, Project Luther, provided me with several challenges:
 
 1. Create an interesting and motivating project idea.
 2. Collect data from the internet using web scraping tools (BeautifulSoup or Selenium).

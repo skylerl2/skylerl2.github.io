@@ -1,5 +1,7 @@
 # Project Kojak Retrospective
 
+See [here](https://github.com/skylerl2/skylerl2.github.io/tree/master/project_5) for project files.
+
 My final Metis project, **Project Kojak**, was my chance to use anything and everything I had learned in the course and apply 
 it to something I am interested in or passionate about in some way. Because of this, it was my most rewarding Metis project, but 
 also my most challenging one.

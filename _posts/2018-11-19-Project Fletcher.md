@@ -1,5 +1,7 @@
 # Project Fletcher Retrospective
 
+See [here](https://github.com/skylerl2/skylerl2.github.io/tree/master/project_4) for project files.
+
 The fourth project I did at Metis, **Project Fletcher**, felt a bit different than the previous ones. In this one, what we 
 needed to do is something called “unsupervised learning.” What this means is that our task at hand is not using regression or 
 classification to predict outcomes; rather, we need to take data and run algorithms to give us insights into the data that we 
